@@ -1,0 +1,6 @@
+Le Projet : L'idée de ce projet est de créer un échiquier avec un IA qui bouge les pions "tout seul".
+            En effet, avec un système de mémoire, l'ordinateur retient les coups qui ont été joué et jouera à son tour, selon sa stratégie,
+            en faisant bouger un de ses pions à l'aide d'un aimant lié à un moteur.
+            
+Objectifs du projet : • Pouvoir jouer aux échecs à tout moment même sans adversaire;
+                      • Pouvoir améliorer ses stratégies de jeu;
