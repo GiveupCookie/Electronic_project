@@ -1,7 +1,6 @@
 Séance 1 : • Choix du matériel (moteurs, aimants, capteurs, ...);
            • Conception des pièces en 3D afin de les imprimer;
-           • Code pour le jeu d'échec de l'IA;
-           • Code pour les capteurs;
+           • Code pour le jeu d'échec de l'IA.
            • Vérifier que les pièces auront la place de bouger;
            
            
@@ -12,12 +11,10 @@ Séance 2 : • Améliorer les codes;
            
 Séance 3 : • Améliorer les codes;
            • Imprimer les pièces;
-           • Tester la fonctionnalité des capteurs;
            
            
 Séance 4 : • Améliorer les codes;
            • Tester le moteur avec l'aimant;
-           • Tester les capteurs avec les pièces
            
            
 Séance 5 : A voir selon l'avancement du projet;
