@@ -1,6 +1,38 @@
-Le Projet : L'idée de ce projet est de créer un échiquier avec un IA qui bouge les pions "tout seul".
-            En effet, avec un système de mémoire, l'ordinateur retient les coups qui ont été joué et jouera à son tour, selon sa stratégie,
-            en faisant bouger un de ses pions à l'aide d'un aimant lié à un moteur.
+Le Projet : Notre projet consiste en un jeu d'échec automatisé : on décide de nos mouvements sur
+            un ordinateur et les pions se déplacent "tout seuls", à l'aide d'un aimant en-dessous
+            du plateau. Ensuite, une IA nous répond en jouant à son tour.
+            • Le joueur joue sur l'ordinateur, dans un premier temps cela se fera via le 
+              moniteur série. Par la suite nous pourrons faire une interface graphique.
+            • Le programme donne la position et demande au moteur de s'y déplacer.
+              Arrivé à l'emplacement voulu, l'aimant "attrape" la pièce pour la déplacer
+              sur la case voulue.
+            • Une IA répond à notre coup via le programme ARDUINO.
             
 Objectifs du projet : • Pouvoir jouer aux échecs à tout moment même sans adversaire;
                       • Pouvoir améliorer ses stratégies de jeu;
+
+Matériel et conception :
+            Pour la motorisation : 
+            • Deux moteurs pas à pas : en effet, nous avions besoin de moteurs très précis
+              pour pouvoir se positionner aux positions exactes voulues, et de moteurs qui 
+              peuvent facilement faire plusieurs tours "lentement" afin de faire tourner
+              les chenilles du mécanisme.
+            • Deux drivers : afin de contrôler nos deux moteurs pas à pas.
+            • Un électroaimant qui sera posé sur une plateforme le long du rail X.
+              Nous avions besoin de ce type de magnet afin de pouvoir contrôler le 
+              moment où il attrape la pièce voulue.
+            • Un capteur qui sera positionné à proximité de notre électroaimant.
+              Cela servira à notre système de savoir où il se situe sur le plateau de jeu.
+              Pour cela, nous pouvons utiliser un capteur à effet hall ou un capteur optique
+              comme celui que nous avions utilisé lors des séances sur les voitures.
+            • Des courroies, écrous, ... Pour pouvoir créer un mouvement uniforme du système.
+            
+            Pour l'esthétique : 
+            • Une surface assez fine (carton) afin que l'électroaimant puisse facilement attraper
+              les pièces à travers. Il faut également qu'il y ait une marge sur le plateau afin de 
+              pouvoir y déposer les pièces qui ont été "mangées".
+            • Une sorte de boîte pour pouvoir y cacher notre mécanisme et déposer le 
+              plateau de jeu dessus.
+            • 32 pièces de taille assez petite, afin qu'ils puissent bouger en passant entre
+              les autres pièces sans les toucher.
+            • 32 aimants à mettre en-dessous de chacune des pièces.
